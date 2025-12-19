@@ -1,0 +1,12 @@
+python-telegram-bot
+SQLAlchemy
+aiosqlite
+psycopg2-binary
+python-dotenv
+loguru
+asyncpg
+greenlet
+pydantic
+pydantic-settings
+pyyaml
+aiofiles
