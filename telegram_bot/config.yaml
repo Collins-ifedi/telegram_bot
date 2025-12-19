@@ -1,0 +1,39 @@
+# Telegram
+TELEGRAM_TOKEN: "8418321014:AAF7vRJGs65ypUlfr93mWixGjF9fQDUwfn4"
+ADMIN_CHAT_ID: 123456789
+
+# Database
+DATABASE_URL: "postgresql+asyncpg://telegram_bot_uypn_user:o3RrL8uwLVBaoXWtP2aYOv3QNKcxOPKt@dpg-d50g0pf5r7bs739dlk00-a/telegram_bot_uypn"
+
+
+# Admin access
+SUPER_ADMIN_IDS:
+  - 123456789
+  - 987654321
+
+# Payments
+PAYMENT_MODE: "manual"
+
+SUPPORTED_PAYMENTS:
+  - binance_pay
+  - bybit_pay
+  - usdt_trc20
+  - usdt_erc20
+
+WALLETS:
+  binance_pay: "BINANCE_PAY_ID_OR_QR"
+  bybit_pay: "BYBIT_PAY_ID"
+  usdt_trc20: "TRON_USDT_ADDRESS"
+  usdt_erc20: "ETH_USDT_ADDRESS"
+
+# Languages
+DEFAULT_LANGUAGE: "en"
+
+SUPPORTED_LANGUAGES:
+  en: "English"
+  ru: "Русский"
+  ar: "العربية"
+
+# Logging
+LOG_LEVEL: "INFO"
+LOG_FILE: "bot.log"
